@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "McLaren", cursive;
+}
+
+body{
+  padding: 0 16px;
+  background-color: #c2c2c2;
+  background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
+}
+header{
+  background-color: #070814;
+  background-image: url("https://www.transparenttextures.com/patterns/church.png");
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+
+header h1 {
+  color: #fff;
+  font-weight: 200;
+}
+
+footer{
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  color: aqua;
+  margin: 20px;
+}
+
+footer p{
+  font-family: "McLaren", cursive;
+  font-size: large;
+}
+
+
+label{
+  text-align: right;
+}
+
+.heading{
+  text-align: center;
+}
+
+
+.box{
+  width: 300px;
+  border: 2px solid black;   
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  width: 240px;
+  margin: 16px;
+  float: left;
+  height: 300px;
+  background-color: white;
+}
+
+.holidays{
+  padding-left: 50px;
+  padding-right: auto;
+
+}
+
+.box h3{
+  height: 30%;
+  border-width: 0 0 2px 0;
+  padding: 20px; 
+  margin: 40x; 
+  text-align: right;
+}
+
+.box .holiday-details{
+  margin-top: 30px;
+  padding: 20px;  
+}
+
+.detail{
+  margin: 5px ;
+}
